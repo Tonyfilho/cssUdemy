@@ -1,0 +1,14 @@
+
+body {
+    @import url('https://fonts.googleapis.com/css?family=Anton');
+
+}
+section {
+    background: #ff1b68;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Anton', sans-serif; /*Fizemos a importação da fonte pelo GOOGLE/FONT  */
+
+}

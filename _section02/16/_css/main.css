@@ -1,14 +1,13 @@
-
-body {
-    @import url('https://fonts.googleapis.com/css?family=Anton');
-
-}
-section {
+#product-overview {
     background: #ff1b68;
 }
 
+#plans {
+    background: #ffbb00;
+}
 h1 {
     color: rgba(255, 255, 255, 1);
-    font-family: 'Anton', sans-serif; /*Fizemos a importação da fonte pelo GOOGLE/FONT  */
-
+    }
+.section-little {
+    color: rgba(255, 0, 50, 1);
 }

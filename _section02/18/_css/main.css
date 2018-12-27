@@ -1,0 +1,22 @@
+@charset UTF-08;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+   
+
+#product-overview {
+    background: #ff1b68;
+}
+
+#plans {
+    background: #ffbb00;
+}
+h1 {
+    color: rgba(255, 255, 255, 1);
+    }
+.section-little {
+    color: rgba(255, 0, 50, 1);
+}

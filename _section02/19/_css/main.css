@@ -1,0 +1,26 @@
+/* Todos as informações da Aula se encontram no arquivo READ-ME */
+@charset UTF-08;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+   
+
+#product-overview {
+    background: #ff1b68;
+}
+
+.section-little .first-section-little {
+    color: rgba(255, 0, 50, 1);
+    font-family: inherit; /*Criamos aqui o paramentro em que de inhered*/
+}
+
+#plans {
+    background: #ff1b68;
+} 
+/* h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Anton', sans-serif;
+    } */

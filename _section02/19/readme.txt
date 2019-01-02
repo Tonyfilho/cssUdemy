@@ -1,6 +1,6 @@
-                            Aula 19
+                            Aula 26
 
-Nesta Aula, iremos Aprender a classificar no  CSS
+Nesta Aula, iremos Aprender sobre o PADDIN  no  CSS
 
 Vamos ver exemplos de classificação universal *
 

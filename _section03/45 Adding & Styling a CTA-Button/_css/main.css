@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#product-overview {
+    background: #ff1b68;
+    width: 100%;
+    height: 528px;
+    padding: 10px;   
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+/*  ADCIONANDO ESTILO NO LINK DIRETAMENTO NA TAG "a" */
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bolder;
+    padding: 3px 0;
+}
+/*  ADCIONANDO ESTILO USANDO A PSEUDO CLASSE CHAMADA DE SUDO CLASSE */
+
+/*   AULA 44  CRIAMOS UM TIPO DE BOTÃO USANDO A BORDA  colocamos uma BORDA COM FUNÇÃO DE UNDERLINE*/ 
+
+.main-nav__item a:hover, .main-nav__item a:active {  /*O HOVER e o ACTIVE são chamados de SUDO-CLASS */
+    color:white;
+    border-bottom: 2px solid white;  
+}
+    /*   AULA 45 ONDE APRENDEREMOS A CRIAR UM BOTÃO CHAMADO CTA COM A MESMA COR DO BACKGROUND */
+.aula45_botao a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px; /* criamos um tipo de BOTÃO usando o BORDER-RADIUS com o mesmo padding de tamanho */
+}
+
+/*   AULA 45 CRIAMOS UM HOVER PARA MUDAR A COR DO BOTÃO */
+.aula45_botao a:hover {
+    color: #ff1b68;
+    background: white;
+}
+
+/*    AULA 42  estudaremos sobre PSEUDO CLASSES*/
+p:: first-letter {
+    color: #ff1b68;
+    font-size: 30px;
+}

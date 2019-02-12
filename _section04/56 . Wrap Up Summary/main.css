@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a.active {
+    color: #521751;
+}
+
+a {
+    color: blue;
+}
+
+a:not (.active){   /*aqui aplicamos o NOT, desta forma ele não deixará a cor azul ser aplicada nesta TAG com classe active
+, lebrando que NÂO de deve ter ESPAÇO ENTRE A TAG E OS ":"*/
+  color: blue;
+
+}
+
+
+
+.main-section {
+    height: 800px;
+    border: 1px solid #ccc !important;
+    padding: 16px;
+}
+
+.highlighted {
+    border: 2px solid #fa923f;
+    height: 200px;
+}

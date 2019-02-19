@@ -181,9 +181,9 @@ ul {
         outline: none;
     }
 
-                             /*  Incicio da SECTION PLANS2 */
+                             /*  Incicio da SECTION PLANS2 usando como separação nossa ID */
 
-.plans2 {
+#plans2 {
     width: 100%;
     padding: 20px;
     background-color: rgb(238, 16, 90);
@@ -191,6 +191,7 @@ ul {
 }
 .plans2__h1 {
    text-align: center; 
+  
 }
 .plans2__ul {
     display: flex;

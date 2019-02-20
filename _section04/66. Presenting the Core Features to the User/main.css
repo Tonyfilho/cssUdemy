@@ -188,9 +188,14 @@ ul {
     padding: 20px;
     background-color: rgb(238, 16, 90);
     color: aliceblue;
+    margin: auto;
 }
 .plans2__h1 {
    text-align: center; 
+   font-weight: bold;
+   color: aliceblue;
+   font-size: 20px;
+
   
 }
 .plans2__ul {

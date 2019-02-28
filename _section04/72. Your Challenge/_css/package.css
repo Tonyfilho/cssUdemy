@@ -1,0 +1,77 @@
+/*  Aqui iniciaremos nosso CSS  começaremos aparti da 36*/
+#main__package {
+    margin-top: 1%;
+    margin-bottom: 45px;
+   
+}
+.package__section__a {
+    text-decoration: none;
+    color: black;
+}
+.package__section__a__premium {
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+    
+  
+}
+
+.main__package__section {
+    max-width:  75%;
+    max-height:  230px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 1%;
+    margin-left: 12.5%;
+    display: block;  
+    padding: 30px;
+    overflow: auto;
+    overflow: hidden;
+    zoom: 1;
+  
+}
+/* config individualmente cada section */
+.plan__plus {
+    background-color: rgba(0, 255, 255,.6);
+   
+  
+}
+.plan__free {
+    background-color: rgba(127, 255, 212, .6);
+    
+}
+.plan__premium {
+    background-color: rgba(2, 68, 2, .95);
+    
+        
+}
+/*  conf. individual de cada H1 */
+.package__section__h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    margin: 25px 0px 10px 0px;    
+}
+.package__section__h2 {
+    color: rgba(0, 0, 0, .8);
+    margin: 0px;
+    margin-bottom: 10px;
+    
+}
+.package__section__h2__premium {
+    color: rgba(240, 248, 255, .8);
+    margin: 0px;
+}
+.package__section__p {
+    border: 1px solid rgba(0, 0, 0, .8);
+    background-color: rgb(240, 248, 255);
+    padding: 10px;
+    margin: auto 0px;
+    font-size: 20px;
+}
+.package__section__p__premium {
+    border: 1px solid rgba(0, 0, 0, .8);
+    background-color: rgb(240, 248, 255);
+    color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    margin: auto 0px;
+    font-size: 20px;
+}

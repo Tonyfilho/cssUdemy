@@ -1,7 +1,19 @@
 /*  Aqui iniciaremos nosso CSS  começaremos aparti da 36*/
+.main__image {
+    background-image: url(../_images/plans-background.jpg);
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
 #main__package {
-    margin-top: 1%;
+   
+    margin-top: 4%;
     margin-bottom: 45px;
+    
+
    
 }
 #main__package:hover,
@@ -15,7 +27,6 @@
 .package__section__a {
     text-decoration: none;
     color: black;
-    cursor: pointer;
 }
 .package__section__a__premium {
     text-decoration: none;

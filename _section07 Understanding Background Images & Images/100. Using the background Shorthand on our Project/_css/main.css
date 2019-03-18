@@ -2,16 +2,20 @@
                                                    /*  frase sobre a  imagem  "Get the freedom you deserve". */
                                                      /* Inicio do MAIN e do SECTION */
  #product-overview {
-     background-image: url("../_images/freedom.jpg");
+     background: url("../_images/freedom.jpg") center no-repeat border-box; /*Podemos por o codigo assim tb, em uma linha */
      background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;        
+     /* background-image: url("../_images/freedom.jpg");*/
+     /*background-position: center;
+     background-repeat: no-repeat;        */
+    /* background-origin: border-box;  
+     background-origin: border-box; */
      width: 100%;
      height: 700px;
      padding: 10px;    
      position: relative; 
      margin-top: 42px;
      z-index: -1;
+     border: 3px dashed red; /*Este BORDER está aqui, somente para ilustrar o funcionmento do  background-origin: border-box, background-origin: border-box */
 }  
                                                                                                     
   #product-overview h1 {

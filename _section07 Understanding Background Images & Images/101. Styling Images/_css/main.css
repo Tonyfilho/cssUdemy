@@ -5,13 +5,16 @@
      background-image: url("../_images/freedom.jpg");
      background-size: cover;
      background-position: center;
-     background-repeat: no-repeat;        
+     background-repeat: no-repeat;       
+     background-origin: border-box;  /*Excluimos os espaços laterais da imagem*/ 
+     background-origin: border-box; /*Excluimos os espaços superior e inferior da imagem */
      width: 100%;
      height: 700px;
      padding: 10px;    
      position: relative; 
      margin-top: 42px;
      z-index: -1;
+     /*border: 3px dashed red; Este BORDER está aqui, somente para ilustrar o funcionmento do  background-origin: border-box, background-origin: border-box */
 }  
                                                                                                     
   #product-overview h1 {

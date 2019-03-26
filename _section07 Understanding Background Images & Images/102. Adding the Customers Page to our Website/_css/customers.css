@@ -3,34 +3,53 @@
 main{
     z-index: -1;
     position: relative;
-    width: 100%;  
+    width: auto;  
+    height: auto;
     
 }
 
 .testimonial{
-    /* display: flex; */
     margin-top: 22px;
-    
+    width: inherit;   
 
 } 
-#customer__img-1{ 
-    width: 80%;
+.testimonial__div__image__left{ /*Conf Div imagem esquerda*/
+    width: 68%;
     top: 20px;
     left: 0px;
     display: flex;
     position: relative;
-
+    margin-bottom: 30px;
 }
-#customer__img-2 {
-    width: 80%;
-    top: 20px;
+.testimonial__div__image__right{ /*Conf Div imagem direita*/
+    width: 68%;
+    margin-top: 30px;
+    margin-bottom: 40px;
     right: 0px;
     display: flex;
-    position: relative;
+    position: absolute;
 }
  /*Lembrando que temos que por a classe da DIV, temos que  apontar para o ITEM descendente para termos efeito no nosso CSS, ou seja temos que por o IMG como DESCENDENTE .testimonial__div__image img */
-.testimonial__div__image img {
+.testimonial__div__image__left img {
+    width: 100%;
+    height: 100%; 
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .6); 
+}
+.testimonial__div__image__right img { /*Lembrando que temos que por a classe da DIV, temos que  apontar para o ITEM descendente para termos efeito no nosso CSS, ou seja temos que por o IMG como DESCENDENTE .testimonial__div__image img */
     width: 100%;
     height: 100%;
-   
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .6); /*box-shadow para lado ESQUERDO*/
+}
+.testimonial__info__1 { /*Conf. da div da texto da 1ª imagem a direita */
+    position: absolute;
+    width: 30%;
+    right: 0px;
+    top: 90px;
+
+}
+.testimonial__info__2 { /*Conf. da div da segunda imagem */
+    position: absolute;
+    width: 30%;
+    left: 10px;
+    bottom: -380px;
 }

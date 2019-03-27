@@ -10,9 +10,12 @@ main{
     
 }
 
-.testimonial{    
+.testimonial{
     
+    width: inherit;   
     overflow: hidden;
+
+
 } 
 .testimonial__div__image__left{ /*Conf Div imagem esquerda*/
     max-width: 68%;

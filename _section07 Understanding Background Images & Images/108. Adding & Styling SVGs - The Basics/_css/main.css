@@ -135,7 +135,7 @@
 .plans2__h1 {
    text-align: center; 
    font-weight: bold;
-   color: aliceblue;
+   color: rgb(240, 248, 255);
    font-size: 20px;
 
   
@@ -154,16 +154,23 @@
     
 }
            /*criamos aqui os circulos onde colocaremos as fotos*/
-.plans2__div__circle {
+.plans2__div__circle {  /*corrigimos o arquivo pelo original do curso, visto que ficou melhor*/
    border: 2px solid black;
-   shape-outside: circle(25%);
-   width: 35px;
-   height: 35px; 
-   padding: 50px;
-   border-radius: 100%;
    background-color: lightpink;
    margin: 0 auto;
-     
+   width: 128px;
+   height: 128px; 
+   border-radius: 50%; 
+   padding: 20px;  
+   
+}
+.plans2__div__circle svg {
+    height: 100%;
+}
+.plans2__p {
+    color: rgb(240, 248, 255);
+    font-weight: bold;
+    font-size: 20px;
 }
          
 

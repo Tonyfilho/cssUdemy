@@ -1,86 +1,109 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /*  aqui começa o CSS do BODY do Index fo Customers, linha 36 */
 
-main{
-    z-index: -1;
-    position: relative;
-    width: 100%;  
-    margin: 5rem 0 0 0;
-    font-size: 1.2rem;
-    
-}
+main {
+  z-index: -1;
+  font-size: 1.2rem;
+  position: relative;
 
-.testimonial__div__image__left{ /*Conf Div imagem esquerda*/
-    width: 65%;
-    max-width: 580px;
-    top: 1.25rem;
-    left: 0px;
-    display: flex;
-    position: relative;
-    margin-bottom: 1.9rem; 
 }
-.testimonial__div__image__right{ /*Conf Div imagem direita*/
-    width: 65%;
-    max-width: 580px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    right: 0px;
-    display: flex;
-    position: absolute;
-}
- /*Lembrando que temos que por a classe da DIV, temos que  apontar para o ITEM descendente para termos efeito no nosso CSS, ou seja temos que por o IMG como DESCENDENTE .testimonial__div__image img */
-.testimonial__div__image__left img, 
-.testimonial__div__image__right img {
-    width: 100%;
-    height: 100%; 
-    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .6); 
-    vertical-align: top;
-}
+.corpo__1 {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  position: relative;
 
-.testimonial__info__1 { /*Conf. da div da texto da 1ª imagem a direita */
-    /* position: absolute; */
-    display: inline-block;
-    width: 30%;    
-    text-align: right;
-    vertical-align: middle;
-    padding: 0.9rem;
 }
-.testimonial__info__2 { /*Conf. da div da segunda imagem */
-    position: absolute;
-    display: inline-block;
-    max-width: 30%;
-    left: 10px;
-    margin-top: 5%;
-    text-align: left;   
-    overflow: auto;
+                                /*Conf. da div da primeira  imagem */
+.image__1 {
+  width: 80%;
+  height: auto;
+  margin: 4.5rem 0 1.9rem 0;
+   
+
 }
-.testimonial__name {  /*conf. da div name*/
-    color: rgb(255, 27, 104);
-    font-size: 30pt;
-    margin: 0px; 
-    padding-bottom: 0px;
-    max-width: 100%;
-  }
-.testimonial__subtitle  {
-    font-size: 20pt;
-    color: rgba(0, 0, 0, .3);
-    margin: 0px; 
-    padding-bottom: 0px;   
-    max-width: 100%; 
+.testimonial__1 { 
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+
+}
+                    /*Conf. da div da texto da 1ª imagem a direita */
+.testimonial__image  {  
+  width: 100%;
+  /* max-width: 900px;  */
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.6);
+  display: inline-block;  
+}
+.testimonial__info__1 {     
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  text-align: right;  
+  margin-left: 8%;
+  
+}
+                                /*Conf. da div da segunda imagem a direita */
+.corpo__2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  /* vertical-align: top; */
+}
+.image__2 {
+  width: 80%;
+  height: auto;
+  margin-bottom: 4rem;
+  position: absolute;
+  right: 0%;
+ 
+}
+.testimonial__2{
+  display: block;
+  width: 60%;
+  float: right;
+  right: 0;
+  top: 50%;
+
+
+
+}
+.testimonial__info__2 {
+  display: inline-block;
+  width: 30%;
+  max-width: 325px;
+  left: 10px;
+  margin-top: 0%;
+  text-align: left;
+  overflow: auto;
+}
+.testimonial__name {
+  color: rgb(255, 27, 104);
+  font-size: 1.8rem;
+  margin: 0rem;
+  padding-bottom: 0px;
+  max-width: 325px;
+}
+.testimonial__subtitle {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.3);
+  margin: 0rem;
+  padding-bottom: 0px;
+  
 }
 .testimonial__subtitle a {
-    font-size: 20pt;
-    color: rgba(0, 0, 0, .3);
-    text-decoration: none;
-    max-width: 100%;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  max-width: 325px;
 }
 .testimonial__text {
-    font-weight: 400;
-    font-size: 22pt;
-    margin: 0px;
-    padding: 0px;
-    max-width: 100%;
+  font-weight: 550;
+  font-size: 1.3rem;
+  margin: 0rem;
+  padding: 0px;
+  max-width: 325px;
 }
-

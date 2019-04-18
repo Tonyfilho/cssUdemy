@@ -1,6 +1,23 @@
 *{
     box-sizing: border-box;
 }
+                                              /*Aqui começa a DIV Modal com o seu POP  */
+.modal {
+    border: 1px solid rgb(14, 79, 31);
+    background-color: rgb(240, 248, 255);
+    box-shadow: 1px 1px rgba(0, 0, 0, .6);
+    width: 40%;   
+    z-index: 0;
+    position: fixed;
+    height: 30%;
+    left: 30%;
+    top: 20%;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+                                              
                                                    /*  frase sobre a  imagem  "Get the freedom you deserve". */
                                                      /* Inicio do MAIN e do SECTION */
  #product-overview {

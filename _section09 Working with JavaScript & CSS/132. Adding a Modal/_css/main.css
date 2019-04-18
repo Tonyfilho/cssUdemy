@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-                                              /*Aqui começa a DIV Modal com o seu POP  */
+                                              /*Aqui começa a DIV Modal com o seu BANNER */
 .modal {
     border: 1px solid rgb(14, 79, 31);
     background-color: rgb(240, 248, 255);
@@ -14,9 +14,43 @@
     top: 20%;
     text-align: center;
     padding: 1rem;
+    /* display: none; */
 }
-
-
+.modal__title__h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 2rem 0;
+}
+.modal__actions {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.modal__action {
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+    background-color: rgb(14, 79, 31);
+    border: 1px solid rgba(0, 0, 0, .6);
+    padding: 0.5rem 1rem;
+    font: inherit;
+    cursor: pointer;
+    
+}
+.modal__action:hover,
+.modal__action:active {
+    background-color: rgb(45, 223, 92);
+    border: 2px solid rgba(45, 223, 92, .6)
+}
+.modal__action--negative {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgba(0, 0, 0, .6)
+}
+.modal__action--negative:hover,
+.modal__action--negative:active {
+    background-color: rgb(255, 84, 84);
+    border: 2px solid rgba(255, 84, 84,.6);
+}
                                               
                                                    /*  frase sobre a  imagem  "Get the freedom you deserve". */
                                                      /* Inicio do MAIN e do SECTION */
@@ -100,7 +134,7 @@
     font-size: 1rem;
     color: rgba(0, 0, 0, .4);
 }
-  /* aqui estamos pondo estilo no H2 RECOMENDADO */
+  /* aqui estamos pondo estilo no H2 e H3 RECOMENDADO */
 .plans__h2__price__value__plus {
     color: rgba(0, 0, 0, .7);
     font-size: 1.2rem;

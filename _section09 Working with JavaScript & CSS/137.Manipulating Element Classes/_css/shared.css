@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+                                          /*  incio do boddy*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+                                                             
+                                        /*  Inicio do HEADER, config. das ULs e LIs */
+
+
+.main-header {
+    width: 100%;
+    background: rgb(45, 223, 92);
+    padding: 0.5rem 1rem;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+                          /* aqui iniciaremos o CSS do botão aula 135 */
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+  display: block;
+  margin: 0.6rem 0;
+}
+                                            /*  fim do css do botão */
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: inline-block; /*para que a imagem abaixo fique com 100% do CONTEINER temos que por um DISPLAY: INLINE-BLOCK*/
+    height: 22px; /*alem do display , temos que  por o HEIGHT com tamanho que queremos a IMAGEM*/
+    vertical-align: middle;
+}
+.main-header__brand img {
+    height: 100%; /*para que a imagem fique com 100% do conteiner e não com o tamanho de 100%, temos que  por im DISPLAY: INLINE-BLOCK no elemento PAI, um WIDTH do tamanho do CONTEINER*/
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 122px);
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.main-nav__item a,
+.mobile-nav__item a {
+    text-decoration: none;
+    color: rgb(14, 79, 31);
+    font-weight: bold;
+    padding: 0.2rem 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active,
+.mobile-nav__item--cta a:hover,
+.mobile-nav__item--cta a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a,
+.mobile-nav__item--cta a {
+    color: white;
+    background: rgb(255, 27, 104);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+.main__body {
+    margin-top: 1.8rem;
+}
+    /* Aqui iniamos os Estilo da parte MOBILE no HTML */
+    .mobile-nav {
+        display: none;
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+        background: white;
+        width: 80%;
+        height: 100vh;
+      }
+      
+      .mobile-nav__items {
+        width: 90%;
+        height: 100%;
+        list-style: none;
+        margin: 10% auto;
+        padding: 0;
+        text-align: center;
+      }
+      
+      .mobile-nav__item {
+        margin: 1rem 0;
+      }
+      
+      .mobile-nav__item a {
+        font-size: 1.5rem;
+      }
+                          /*Aqui começa JS da aula 137*/
+
+.open {
+    display: block
+}
+
+
+                                              /*Aqui começaremos estilizar nosso FOOTER**/
+#footer {
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+.main__footer__nav  {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0 0 1.25rem 0;
+}
+.main__footer__ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main__footer__li {
+    display: inline-block;
+    padding: 0 1rem;
+    vertical-align: middle;
+    margin-top: 0.63rem;
+}
+.main__footer__li a {
+    color: rgb(240, 248, 255);
+    text-decoration: none;
+}
+.main__footer__li a:hover,
+.main__footer__li a:active {
+    text-decoration: underline;
+    color: darkgreen;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}

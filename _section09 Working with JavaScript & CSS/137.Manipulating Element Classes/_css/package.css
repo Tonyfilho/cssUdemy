@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+/*  Aqui iniciaremos nosso CSS  começaremos aparti da 36*/
+.main__image {
+    background-image: url(../_images/plans-background.jpg);
+    filter: grayscale(50%); /*Iremos por um FILTRO aqui na IMG, desta forma iremos um filtro na cor zinza */
+    background-position: center; /*Centralizamos  a IMAGEM */
+    background-size: cover; /*Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges*/
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;   /*Aqui colocamos o backgraund no eixo Z com valor -1, com isto a imagem ficará atraz de todos elementos*/
+}
+
+#main__package:hover,
+#main__package:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    border-color: rgb(255, 84, 84);
+
+}
+
+
+.package__section__a {
+    text-decoration: none;
+    color: black;
+}
+.package__section__a__premium {
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+    
+  
+}
+.main__package__section {
+    width:  75%;
+    max-width: 650px;
+    max-height:  280px; 
+    border: 2px solid rgb(0, 0, 0); 
+    display: block;  
+    padding: 3rem;   
+    overflow: hidden; 
+    zoom: 1;
+  
+}
+/* config individualmente cada section */
+.plan__plus {
+    background-color: rgba(0, 255, 255,.6);
+    position: relative;
+    z-index: -1;
+    margin: 5% auto -1% 0%;
+   
+  
+}
+.plan__free {
+    background-color: rgba(127, 255, 212, .6);
+    position: relative;
+    margin: 4% 0% 0% auto;
+   
+    
+    
+}
+.plan__premium {
+    background-color: rgba(2, 68, 2, .95);
+    position: relative;
+    margin: 4% auto 5% 0%;
+    
+        
+}
+/*  conf. individual de cada H1 */
+.package__section__h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    margin: 0.62rem 0 0.62rem 0;
+    font-size: 2rem;   
+}
+.package__section__h1__premium{
+    margin: 0.62rem 0 0.62rem 0;
+}
+.package__section__h2__recommend {
+    position: absolute;
+    right: 5%;
+    top: 0%;
+    text-transform: uppercase;
+    background-color: rgb(255, 27, 104);
+    color: rgb(240, 248, 255);
+    padding: 0.62rem;
+    border-radius: 7.5px;
+    font-size: 1rem;
+}
+.package__section__h2 {
+    color: rgba(0, 0, 0, .8);
+    margin: 0px;
+    margin-bottom: 0.62rem;
+    font-size: 1rem;
+    
+}
+.package__section__h2__premium {
+    color: rgba(240, 248, 255, .8);
+    margin: 0px;
+    margin-bottom: 0.62rem;
+    font-size: 1rem;
+}
+.package__section__p {
+    border: 1px solid rgba(0, 0, 0, .8);
+    background-color: rgb(240, 248, 255);
+    padding: 0.62rem;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+.package__section__p__premium {
+    border: 1px solid rgba(0, 0, 0, .8);
+    background-color: rgb(240, 248, 255);
+    color: rgba(0, 0, 0, 1);
+    padding: 0.62rem;
+    margin: 0px;
+    font-size: 1.2rem;
+}

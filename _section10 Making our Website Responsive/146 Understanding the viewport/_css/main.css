@@ -62,8 +62,8 @@
      background-repeat: no-repeat;       
      background-origin: border-box;  
      background-origin: border-box; Excluimos os espaços superior e inferior da imagem */
-     width: 100%;
-     height: 43.5rem;
+     width: 100vh;
+     height: 33vh;
      padding: 0.62rem;    
      position: relative; 
      margin-top: 2.62rem;
@@ -74,7 +74,21 @@
   #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    font-size: 1.6rem;
     
+}
+/*                                                                          INICIO DA MEDIA */
+
+@media (min-width: 40rem){ /*CRIA O MIDIA E COLOQUE A CONDIÇÃO DENTRO DOS PARENESES, no nosso caso MIN-WIDTH: 40 rem, ou seja ele atua quando tiver uma tela de 40rem*/
+    #product-overview {
+        height: 40vh;
+        background-position: 50% 25%
+    }  
+    #product-overview h1 {
+        font-size: 3rem;
+    }
+
+
 }
 
            /* divisão depois da imagem */
@@ -82,6 +96,7 @@
    color: #2ddf5c;
    text-align: center; 
 }
+
          /*  Aqui colocamos um hover para mudar a cor da DIV "article_banner
 .article_banner :hover {
     background-color:  green;  
